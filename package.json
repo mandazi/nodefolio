@@ -1,0 +1,34 @@
+{
+  "name": "nodefolio",
+  "version": "1.0.0",
+  "description": "A simple portfolio web application built with Node, Angular and Parse.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandazi/nodefolio.git"
+  },
+  "keywords": [
+    "node",
+    "angular",
+    "parse",
+    "portfolio",
+    "web",
+    "application"
+  ],
+  "author": "Amir Sahib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandazi/nodefolio/issues"
+  },
+  "homepage": "https://github.com/mandazi/nodefolio#readme",
+  "dependencies": {
+    "parse":"latest",
+    "express":"latest",
+    "body-parser":"latest",
+    "express-handlebars":"latest"
+  }
+}

@@ -1,0 +1,10 @@
+<h1>Projects</h1>
+
+<ul class="list-group">
+{{#each .}}
+	<li class="list-group-item">
+		<h3>{{this.title}}</h3>
+		<p>{{{description}}}</p>
+	</li>
+{{/each}}
+</ul>
